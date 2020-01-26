@@ -30,5 +30,46 @@ Finally, :-)
 - In another consol run the - protractor conf.js 
 - Your will notice test are running against the protractortest.org on chrome browser
 
+**Page code pattern**
+
+    class HomePage {
+    constructor() {
+        this.homeLink = element(by.linkText('Home'));
+        this.drop1Link = element(by.id('drop1'));
+        this.tutorialLink = element(by.linkText('Tutorial'));
+        this.drop2Link = element(by.id('drop2'));
+        this.settingUpProtractorLink = element(by.linkText('Setting Up Protractor'));
+        this.settingUpTheSeleniumServerLink = element(by.linkText('Setting Up the Selenium Server'));
+        this.settingUpTheBrowserLink = element(by.linkText('Setting Up the Browser'));
+        this.choosingAFrameworkLink = element(by.linkText('Choosing a Framework'));
+        this.drop3Link = element(by.id('drop3'));
+        this.fAQLink = element(by.linkText('FAQ'));
+    }
+    }
+    module.exports = new HomePage();
+
+**Test case code pattern**
+
+    var homePage = require('../Pages/homePage');
+    const EC = protractor.ExpectedConditions;
+    describe('Check the https://www.protractortest.org/ main page Home and Tutorial links', function () {
+    it('HomePageTest 1 .1 - It should navigate to home page! check Tutorial page and go back to Home page', function () {
+          //Given
+              browser.ignoreSynchronization = true;
+    browser.driver.manage().window().maximize();
+        browser.get('https://www.protractortest.org/');
+    browser.sleep(6000);
+    //When
+    homePage.tutorialLink.click();
+    browser.wait(EC.visibilityOf(homePage.homeLink), 10000);
+    //Then
+    homePage.homeLink.click();
+    browser.wait(EC.visibilityOf(homePage.homeLink), 10000);   
+    }); 
+    });
+
+ **Used jasmine for assertion**
+ [https://jasmine.github.io/](https://jasmine.github.io/)
+ 
 ## Keywords
-Software testing, Test automation, UI test automation, Qualiy assurance, Test automation framework, Test automation framework architecture, Test automation framework design
+Software testing, Test automation, UI test automation, Qualiy assurance, Test automation framework, Test automation framework architecture, Test automation framework design, Page object model, UAT testing, E2E testing
