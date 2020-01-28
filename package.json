@@ -1,0 +1,29 @@
+{
+  "name": "protractor-page-object-model",
+  "version": "1.0.5",
+  "description": "Page Object Basic Model ( Ready To Use ) - UI Test Automation Design Pattern for protractortest.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padmarajnidagundi/Protractor-POM-Ready-To-Use"
+  },
+  "keywords": [
+    "protractor",
+    "pom",
+    "testing",
+    "ui testing",
+    "page object model",
+    "design pattern",
+    "ui test automation",
+    "test automation",
+    "npm",
+    "framework",
+    "angular testing",
+    "node"
+  ],
+  "author": "Padmaraj Nidagundi",
+  "license": "ISC"
+}
