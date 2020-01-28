@@ -1,3 +1,4 @@
+
 **Protractor-POM-Ready-To-Use** 
 Page Object Basic Model ( Ready To Use ) - UI Test Automation Design Pattern for protractortest.org 
 Contact me! if you have more ideas -  [padmaraj.nidagundi@gmail.com](mailto:padmaraj.nidagundi@gmail.com)  
@@ -52,13 +53,14 @@ Finally, :-)
 **Test case code pattern** in the folder =>  **Tests**
 
     var homePage = require('../Pages/homePage');
+    var testdata = require('../Testdata/data.json');
     const EC = protractor.ExpectedConditions;
     describe('Check the https://www.protractortest.org/ main page Home and Tutorial links', function () {
     it('HomePageTest 1 .1 - It should navigate to home page! check Tutorial page and go back to Home page', function () {
     //Given
     browser.ignoreSynchronization = true;
     browser.driver.manage().window().maximize();
-    browser.get('https://www.protractortest.org/');
+    browser.get(testdata.environment);
     browser.sleep(6000);
     //When
     homePage.tutorialLink.click();
