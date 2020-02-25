@@ -1,15 +1,38 @@
 {
-  "name": "protractor-page-object-model",
-  "version": "1.0.5",
+  "_from": "protractor-page-object-model",
+  "_id": "protractor-page-object-model@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-am5k1bDbQJnUdC6o3chbLdq89okVVPKabAfaKh0f08rSWvxbjvsxM2ff9SzkYa6gTuYcQmMU0x/12oraOkx7WQ==",
+  "_location": "/protractor-page-object-model",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "protractor-page-object-model",
+    "name": "protractor-page-object-model",
+    "escapedName": "protractor-page-object-model",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/protractor-page-object-model/-/protractor-page-object-model-1.0.8.tgz",
+  "_shasum": "65458a06dfe120cce61dfc1cd7543b87f9aded0d",
+  "_spec": "protractor-page-object-model",
+  "_where": "C:\\one",
+  "author": {
+    "name": "Padmaraj Nidagundi"
+  },
+  "bugs": {
+    "url": "https://github.com/padmarajnidagundi/Protractor-POM-Ready-To-Use/issues"
+  },
+  "bundleDependencies": [],
+  "deprecated": false,
   "description": "Page Object Basic Model ( Ready To Use ) - UI Test Automation Design Pattern for protractortest.org",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/padmarajnidagundi/Protractor-POM-Ready-To-Use"
-  },
+  "homepage": "https://github.com/padmarajnidagundi/Protractor-POM-Ready-To-Use#readme",
   "keywords": [
     "protractor",
     "pom",
@@ -24,6 +47,15 @@
     "angular testing",
     "node"
   ],
-  "author": "Padmaraj Nidagundi",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "name": "protractor-page-object-model",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padmarajnidagundi/Protractor-POM-Ready-To-Use.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.1"
 }

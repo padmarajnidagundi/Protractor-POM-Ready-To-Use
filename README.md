@@ -81,32 +81,6 @@ Finally, :-)
     }
 
 **Standard protractor configuration coming from **=>**     conf.js**
-
-> 
-
-## **Contributing**
-
-Pull requests are welcome. Commits should have an appropriate message and be squashed.
-
-**Ensure that the following dependencies are installed:**
-
-Java SDK and JRE
-node.js
-Google Chrome
-
-    git clone https://github.com/padmarajnidagundi/Protractor-POM-Ready-To-Use
-    cd Protractor-POM-Ready-To-Use
-    npm install
-
-**For Maintainers**
-
-Releasing process:
-
- 1. bump version
- 2. npm publish
- 3. tag release (git tag vx.x.x && git push origin master --tags)
- 4. build github release (npx release)
-
  
 ## Keywords
-Software testing, Test automation, UI test automation, Qualiy assurance, Test automation framework, Test automation framework architecture, Test automation framework design, Page object model, UAT testing, E2E testing, Angular testing, AngularJS testing. AngularJS, Testing
+Software testing, Test automation, UI test automation, Qualiy assurance, Test automation framework, Test automation framework architecture, Test automation framework design, Page object model, UAT testing, E2E testing, Angular testing, AngularJS testing.
