@@ -83,4 +83,8 @@ Finally, :-)
 **Standard protractor configuration coming from **=>**     conf.js**
  
 ## Keywords
-Software testing, Test automation, UI test automation, Qualiy assurance, Test automation framework, Test automation framework architecture, Test automation framework design, Page object model, UAT testing, E2E testing, Angular testing, AngularJS testing.
+Software testing, Test automation, UI test automation, Qualiy assurance, Test automation framework, Test automation framework architecture, Test automation framework design, Page object model, UAT testing, E2E testing, Angular testing, AngularJS testing, Jasmine, Automation
+
+**maintaining codebase tips** **Kudos (Help) for you**
+-  To update your Protractor version ::: npm install protractor@latest --save   &   npm install -g protractor
+-  Selenium Web driver update :::  webdriver-manager update
